@@ -13,6 +13,14 @@ foreach ($entry in $entries) {
     if ((Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash -ne $entry.sha256) { throw "Source mismatch: $($entry.path)" }
 }
 if (@(Get-ChildItem -LiteralPath $sourceRoot -File -Recurse).Count -ne @($entries).Count) { throw 'Unexpected source file count.' }
+$dependencies = Get-Content -LiteralPath (Join-Path $sourceRoot 'deps\download-manifest.json') -Raw | ConvertFrom-Json
+foreach ($dependency in $dependencies | Where-Object { $_.path -like 'tooling/*' }) {
+    $cached = Join-Path $PSScriptRoot ('vendor/' + [IO.Path]::GetFileName($dependency.path))
+    if ((Get-FileHash -LiteralPath $cached -Algorithm SHA256).Hash -ne $dependency.sha256) { throw 'Cached ASM hash mismatch.' }
+    $destination = Join-Path $sourceRoot ('deps/' + $dependency.path)
+    New-Item -ItemType Directory -Force -Path (Split-Path $destination) | Out-Null
+    Copy-Item -LiteralPath $cached -Destination $destination
+}
 $jdk = $env:JAVA_HOME_17_X64
 if (-not $jdk -or -not (Test-Path -LiteralPath (Join-Path $jdk 'bin\javac.exe'))) { throw 'Runner JDK 17 unavailable.' }
 Get-CimInstance Win32_OperatingSystem | Select-Object Caption,Version | ConvertTo-Json -Compress

@@ -27,10 +27,13 @@ jobs:
       - name: Verify and build source inside the disposable runner
         shell: pwsh
         run: ./ci/Build-ReviewedSource.ps1
+      - name: Monitor rebuilt launcher without a Java target
+        shell: pwsh
+        run: ./ci/Test-Launcher.ps1
       - name: Explain test boundary
         if: always()
         shell: pwsh
         run: |
-          Write-Output 'This first workflow only establishes a clean build and runner capabilities.'
-          Write-Output 'It does not execute the built client or establish malware absence.'
+          Write-Output 'See individual steps for actual build and monitored-launcher coverage.'
+          Write-Output 'The injected payload and Minecraft gameplay are not covered by this workflow.'
           Write-Output 'No Actions artifact/cache upload is configured. Results are in the job log.'
