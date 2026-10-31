@@ -30,10 +30,13 @@ jobs:
       - name: Monitor rebuilt launcher without a Java target
         shell: pwsh
         run: ./ci/Test-Launcher.ps1
+      - name: Monitor offline Minecraft startup and attempt injection
+        shell: pwsh
+        run: ./ci/Test-Minecraft.ps1
       - name: Explain test boundary
         if: always()
         shell: pwsh
         run: |
           Write-Output 'See individual steps for actual build and monitored-launcher coverage.'
-          Write-Output 'The injected payload and Minecraft gameplay are not covered by this workflow.'
+          Write-Output 'Actual injection coverage depends on game startup and the native log; gameplay is not covered.'
           Write-Output 'No Actions artifact/cache upload is configured. Results are in the job log.'
