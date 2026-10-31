@@ -17,6 +17,8 @@ Tests rebuild Java payloads, native DLL and launcher in the remote VM; record
 artifact hashes; monitor the launcher without a target using signed Microsoft
 Process Monitor; then provision official Minecraft 1.8.9 for an offline startup
 and injection attempt. Minecraft graphics compatibility is determined at runtime.
+Pinned Mesa Windows 26.2.5 software OpenGL is installed beside the disposable
+JDK executable because the default virtual display exposes only OpenGL 1.1.
 Outbound networking is blocked per launcher/JVM program. This is not a global
 network-denial guarantee. No personal login or public game server is used.
 

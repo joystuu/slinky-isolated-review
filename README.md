@@ -3,6 +3,10 @@
 Disposable Windows build and behavioral investigation of a user-supplied client
 source archive. This repository is a test workspace, not a safety endorsement.
 
+[Initial findings and exact test coverage](RESULTS.md): the full build and offline
+Minecraft injection succeeded; no obvious malicious behavior was identified in
+the short startup/menu observation. Gameplay and online behavior remain untested.
+
 The manual workflow verifies all 312 reviewed source inputs, builds the Java
 payloads, native DLL and launcher, and records their hashes. It then uses signed
 [Microsoft Process Monitor](https://learn.microsoft.com/sysinternals/downloads/procmon)

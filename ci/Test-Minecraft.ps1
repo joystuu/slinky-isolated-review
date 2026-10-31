@@ -37,6 +37,7 @@ Start-Sleep -Seconds 3
 if (-not (Test-Path -LiteralPath $pml) -or -not (Get-Process Procmon64 -ErrorAction SilentlyContinue)) { throw 'Capture unavailable; refuse execution.' }
 $game = $null
 $injector = $null
+$observationError = $null
 try {
     $arguments = Get-Content -LiteralPath (Join-Path $gameRoot 'launch-arguments.json') -Raw | ConvertFrom-Json
     $quoted = @($arguments | ForEach-Object { '"' + $_ + '"' })
@@ -66,11 +67,14 @@ try {
     } else {
         Write-Output 'MINECRAFT_NOT_READY: no live game window; no injection attempted.'
     }
+} catch {
+    $observationError = $_.Exception.Message
+    Write-Output ('OBSERVATION_ERROR ' + $observationError)
 } finally {
     foreach ($process in @($injector,$game)) { if ($null -ne $process -and -not $process.HasExited) { Stop-Process -Id $process.Id -Force -ErrorAction SilentlyContinue } }
     Start-Sleep -Seconds 2
     Start-Process -FilePath $procmon -ArgumentList '/Terminate','/Quiet' -Wait | Out-Null
-    foreach ($name in @('stdout.txt','stderr.txt','game/logs/latest.log')) {
+    foreach ($name in @('stdout.txt','stderr.txt','logs/latest.log','game/logs/latest.log')) {
         $file = Join-Path $gameRoot $name
         if (Test-Path -LiteralPath $file) { Write-Output ('GAME_LOG '+$name); Get-Content -LiteralPath $file -Tail 100 }
     }
@@ -80,7 +84,10 @@ try {
     }
 }
 Start-Process -FilePath $procmon -ArgumentList @('/AcceptEula','/Quiet','/OpenLog',('"'+$pml+'"'),'/SaveAs',('"'+$csv+'"')) -Wait | Out-Null
-$roots = @([string]$game.Id)
+$roots = @()
+if ($null -ne $game) { $roots += [string]$game.Id }
 if ($null -ne $injector) { $roots += [string]$injector.Id }
 & (Join-Path $PSScriptRoot 'Export-Trace.ps1') -Csv $csv -RootPids $roots -Stage 'minecraft'
 Write-Output 'BOUNDARY: offline startup/menu observation; no personal login, multiplayer, or gameplay. No absence-of-malware guarantee.'
+if ($null -ne $observationError) { throw $observationError }
+if ($null -eq $injector) { Write-Output '::warning::Injection was not exercised; inspect Minecraft startup failure.' }
