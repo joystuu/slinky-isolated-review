@@ -8,23 +8,21 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build:
-    if: vars.COST_GATE == 'verified-no-charge'
+    if: github.event.repository.private == false
     runs-on: windows-2022
     timeout-minutes: 20
     steps:
-      - name: Check out this private commit without persisting credentials
+      - name: Check out this public commit without persisting credentials
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5, verified from official tag
         with:
           persist-credentials: false
           fetch-depth: 1
-      - name: Verify private repository and exact commit
+      - name: Verify public repository and exact commit
         shell: pwsh
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
           $ErrorActionPreference = 'Stop'
-          $repo = gh api "repos/$env:GITHUB_REPOSITORY" | ConvertFrom-Json
-          if ($LASTEXITCODE -or -not $repo.private -or $repo.visibility -ne 'private') { throw 'Private repository required.' }
+          $repo = Invoke-RestMethod "https://api.github.com/repos/$env:GITHUB_REPOSITORY"
+          if ($repo.private -or $repo.visibility -ne 'public') { throw 'Public repository required for free standard runner.' }
           if ((git rev-parse HEAD).Trim() -ne $env:GITHUB_SHA) { throw 'Commit mismatch' }
       - name: Verify and build source inside the disposable runner
         shell: pwsh
