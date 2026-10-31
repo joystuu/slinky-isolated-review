@@ -1,0 +1,1562 @@
+[
+  {
+    "path": "build.ps1",
+    "bytes": 5865,
+    "sha256": "1aeff663245465eac1a0f1afda304d1eec4198bc94350d6c3dc068e3bdd8a4b1"
+  },
+  {
+    "path": "deps/download-manifest.json",
+    "bytes": 10454,
+    "sha256": "34cd6a5468713170d789bf5324a319adf58ddabcee0d0bdaea5fd0b20d67a42b"
+  },
+  {
+    "path": "deps/README.txt",
+    "bytes": 3184,
+    "sha256": "b725d452056f4ad5f3ae15a9e0a9ec56cfe468f02c7f0c70dc5b567568177eb0"
+  },
+  {
+    "path": "java/mappings/official.txt",
+    "bytes": 1607323,
+    "sha256": "7097e14fed09990dc46883c5e3b0be3bcb86b81bc91577496b6da9436cf54aa2"
+  },
+  {
+    "path": "java/mappings/srg.txt",
+    "bytes": 1915756,
+    "sha256": "b8c37c1df39732e507a69e752a6de48a009556f64f72ecc10a6a9bfb0dddb9cd"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/action/ActionAccess.java",
+    "bytes": 4843,
+    "sha256": "580a1f6019c8f04a3654b5fcc6a51845fb4abd1dcb438a3657b484d16d04de68"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/action/ActionConstants.java",
+    "bytes": 2006,
+    "sha256": "ccf7d5c621868d64b154587121718820ed9fa70793368401cd62d405eff3dba0"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/AttackInput.java",
+    "bytes": 384,
+    "sha256": "3b8144938b63b4d5c03857540b4c3ba22b4fd5801406fd57dc9fd3a586a3a0ae"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/BindingInput.java",
+    "bytes": 2225,
+    "sha256": "4b7c08ccf69f951921a996dfe942f0de9a163925a738b80a2cddec1f4a62f7ab"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/ClientContext.java",
+    "bytes": 985,
+    "sha256": "13ab2c705d9b5cf20f78c87b580893136a0c09185ac77745b434513402ea3f04"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/ClientEventBridge.java",
+    "bytes": 9203,
+    "sha256": "d39892450be37dd485a723f07d5437916a7ce6d55831802d7ec1d9616a3daa47"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/FixedWidth.java",
+    "bytes": 697,
+    "sha256": "6a2ff048ebf3e89e2d85c5dfb3f2fd2b9be7729c52943b2d9aded0b68dabb409"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/ForgeInputAdapter.java",
+    "bytes": 1273,
+    "sha256": "9aa035c186b47a5931fa0b1edb7ff58b2614d2d1cd288981aa8f86ffb70cd2c6"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/GuiMenuCommand.java",
+    "bytes": 1238,
+    "sha256": "496022db52cba8364f5cc6efb922787c9070954eb20eac689866abb2449c64bc"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/GuiModuleList.java",
+    "bytes": 3127,
+    "sha256": "fc0a0a0883f57b4eafe2af7dbd7a91ab14e0d7d137693bd7ef42090e58e49275"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/GuiModuleSettings.java",
+    "bytes": 4956,
+    "sha256": "5304897bfc3d6b3678f418c9e2f83cc5087fde4cda64e39dcbf1ddcd5c3197e9"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/hook/ForgeUiSurface.java",
+    "bytes": 9589,
+    "sha256": "58b3aa9c940c1e92ed62e59ba41506b9b8b0ec5419dade3994c9cbbaee363748"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/hook/GameHooks.java",
+    "bytes": 10559,
+    "sha256": "d838475dbe1fb618fbd5475f91657c3129f5d2b39366c63d66f1518f687b9c42"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/hook/GlCacheResync.java",
+    "bytes": 2897,
+    "sha256": "2f7c9469702e7936d096dc1e3685c0ea1af1ae0417403fff462e69309c0475d7"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/hook/GlStateCacheSnapshot.java",
+    "bytes": 4285,
+    "sha256": "996f33734571ad81bb0719318fbe9c45070afdbb208f6f4c8d47a54cef147f5f"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/hook/GlStateScope.java",
+    "bytes": 2879,
+    "sha256": "6579108c76f173084ca00a2ab6ba45e7a9cc64725bdb52baf99c7261a17bf074"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/hook/RayQueryAdapter.java",
+    "bytes": 5848,
+    "sha256": "f7b2557caa7e9c81e75d74d8f322f28d1ef706fe6d2b2be74694aa9af0310bea"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/hook/RenderHooks.java",
+    "bytes": 7656,
+    "sha256": "90c73b3ce5536624e51d5f24c5611b938aa76ffa97e0da6e0cff963597d3b642"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/hook/TargetCombatStatus.java",
+    "bytes": 6134,
+    "sha256": "6c2b7445f28f1be68794622ef8a0a84bce4b80d218f98f36921698dc106ef483"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/hook/UiFrameDriver.java",
+    "bytes": 2251,
+    "sha256": "5ef0c396c0c4f2dd493120c09899e054c664881632d7f3af66c590afbe0ccbef"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/InputQuery.java",
+    "bytes": 1936,
+    "sha256": "70d09b8ce662939d7e461184b7bfc25de0201e868a79526bfe41dbbf09ed506c"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/InputRouter.java",
+    "bytes": 4680,
+    "sha256": "d9121e3165a8f5435d011a70569074a04a7f5bf15d932bf05166587fbe496f36"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/inventory/ConsumableAccess.java",
+    "bytes": 3290,
+    "sha256": "281dc0cbe3c20e51ed6fa8efcd070cd3346b89a828ed1458a3072c3de06cb45f"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/inventory/ConsumableDelay.java",
+    "bytes": 1075,
+    "sha256": "acd111f90f07fb4b9086ab683354c682d3e4e96ba4b4020effd57dd6cee9e86e"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/inventory/InventoryActions.java",
+    "bytes": 3672,
+    "sha256": "fa94ca65c399c7ede8d3dc25d4e8f94a242cf6e75e6b20baffeb9648dbd9c041"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/inventory/InventorySelection.java",
+    "bytes": 13967,
+    "sha256": "5a2dc700a6fc2ee8c80e0fb778abb353d29439a4fbb3eeb85c61f3eafbce1a54"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/inventory/InvWalkControllerInputAdapter.java",
+    "bytes": 321,
+    "sha256": "33ff2893e7b1f71dbe99f5abe99b4d2d96c9b156edd3f550430617cd8288139b"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/inventory/RefillSelection.java",
+    "bytes": 3253,
+    "sha256": "c2115000e78a7d1108aefacc8213a0aacfadd6faa6f88fef50ad03614ba99d52"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/ItemPolicyService.java",
+    "bytes": 2460,
+    "sha256": "c2cb1ff32a8d6ccdec056f16f561318770e955fa22df66a43da130fe0b80915f"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/KeyState.java",
+    "bytes": 2077,
+    "sha256": "9df9efc2eb9ab4c6e69293cba82a493bfe80e198d59b4718a74f8c9b57aff6fb"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/MinecraftFields.java",
+    "bytes": 4038,
+    "sha256": "1970cc03262683232d7329fafe6560339f3f94fd192f190e6ad8e9aa630c7e0e"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/ModuleActionService.java",
+    "bytes": 735,
+    "sha256": "83295108dc73aed381c5d3f2cb59d7d4cdf8f484a3d7e8a807ac9fb22aae60c5"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/NativeKeyMap.java",
+    "bytes": 2769,
+    "sha256": "92af67112e7d1834f4c7556f9fa577cd62cae05a880337032becb21a1d56ae0c"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/numeric/DoubleNumeric.java",
+    "bytes": 8177,
+    "sha256": "ba8e7a19ece79f2c6f18793dac153849c03f575205186a6f6ba461ad1db46ee2"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/numeric/DoubleTrigonometry.java",
+    "bytes": 7446,
+    "sha256": "b30cb2f0f41f714301325b9fdc4cad3144ce5de85c14254f1e7002d5807d9945"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/numeric/FloatNumeric.java",
+    "bytes": 10703,
+    "sha256": "3f95a8923c9b429df9b57292df9af72fa3edc317978cee164bc2742b58370a93"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/numeric/FloatTrigonometry.java",
+    "bytes": 6514,
+    "sha256": "791622bd36347ac6331c4c3a9eb7944f3253921cf01f9f3468c6349178673199"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/numeric/LargeReduction.java",
+    "bytes": 6659,
+    "sha256": "10bdd40880cd48d4c317d34d49b4208620ea9afb7790e4a7e6276034eb938118"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/numeric/NumericConstants.java",
+    "bytes": 2076,
+    "sha256": "9c723243f7826907439b72143da9315dbc8aca0c8a925c76598ee1d28c2d520e"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/numeric/NumericServices.java",
+    "bytes": 3560,
+    "sha256": "b3cad5b1866c13daa3053f32a6067abf92fae8bcbf511092ea0dd47e24fb3d3d"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/packet/NetworkSendAdapter.java",
+    "bytes": 1568,
+    "sha256": "e8e69282aa27cdf78a2c6211cb9a61e421264e434ce171c42d5dce9eb4c27f38"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/packet/PacketAccess.java",
+    "bytes": 961,
+    "sha256": "9158ca6f17a21ccb41bae4065cfacaa7bd8981bca74d3d1cd693b109f35dc5f1"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/packet/PacketKinds.java",
+    "bytes": 684,
+    "sha256": "031566003d6337ec2da070deb6adbdb97bd5128c0e78f53c44ad5d42113b3bdb"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/packet/PacketPipeline.java",
+    "bytes": 7705,
+    "sha256": "4a463571931ae715b8ef1742c0d5f5cbb8bfffaaa897ad55230185a2fd936173"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/packet/PredictionGeometry.java",
+    "bytes": 2508,
+    "sha256": "f449d3b1aff59b3c008bb291954aea963b1ae4974297c8fcd7faa48755cb11b0"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/packet/RemoteBoxRenderer.java",
+    "bytes": 2040,
+    "sha256": "df254e7661da63c25d28408faeae679c2194a072755a9e177d047770d42132d0"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/packet/TimingAccess.java",
+    "bytes": 2926,
+    "sha256": "9fbf7206821914165dbc16904befb50b0c9121ea9e2ce55538abd077b813475d"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/placement/PlacementFrame.java",
+    "bytes": 5342,
+    "sha256": "02f469a667510df96818c6219b183568983c4f096e13d232269aafdfa6916fc5"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/placement/PlacementGeometry.java",
+    "bytes": 3133,
+    "sha256": "06a28712cb1ae2d7a3b5607e9f1fcbe7f2fe8b03532833f52f490afde82a1d2a"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/placement/PlacementSelection.java",
+    "bytes": 7693,
+    "sha256": "39bfb0aadc1e31ea59b115b38c56c3ef00c9413693ed6218adbf62da157c76b2"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/RecoveredMath.java",
+    "bytes": 1943,
+    "sha256": "15d328b87a18ca9b73664a860ef2fd01c159dcd75b1c9fe1b89362483021752a"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/RelationshipService.java",
+    "bytes": 995,
+    "sha256": "03e12182c0be8eb6c45a4d3fa35f0927de323116a9967fa28441edebe36742b5"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/BlockMesh.java",
+    "bytes": 5261,
+    "sha256": "bee73d48aeafd86c507cc94bfa4d8260981d5e5badd8c37addb23c511f8bf613"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/BundledGuiFonts.java",
+    "bytes": 3543,
+    "sha256": "f6dff3f9eb9d1ab3f88e8bd8c3dcf8a528941a774e66db71e01288c7c6e91ff8"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/CanvasFonts.java",
+    "bytes": 15922,
+    "sha256": "e315cf0d6000049e8b4a2f1fb9bbd06e2d4f74cccec47723875746224e117aee"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/CanvasPath.java",
+    "bytes": 25269,
+    "sha256": "082454af843c61ec6406dff524bbc1d17f50144cb310498fbca71bd57a1b4f52"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/CanvasShader.java",
+    "bytes": 6627,
+    "sha256": "0f7afa8a5f4e50b0c01ec42a423075caebff1ba40e061b1c7432a9832dbce4a8"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/DrawPlan.java",
+    "bytes": 8808,
+    "sha256": "808782f017fde4b3758b8617ce83ed2f9ddda4608bbcda8293b807ccc4ae9773"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/FontAtlasService.java",
+    "bytes": 6995,
+    "sha256": "24ba7ccee80869cd4ecc5355bec83110c65e52a3468eceb6c3fa8e4e2b0694a6"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/FontCff.java",
+    "bytes": 16948,
+    "sha256": "46cca2775f90b1e80c74bcfa07b6b712912b7b90f63442bab0e4fce0086dc215"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/FontGeometry.java",
+    "bytes": 5414,
+    "sha256": "1491f76ea0a334ea14dbd296c9e805de8904109f95b924efef2e204dab100049"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/FontGlyphCache.java",
+    "bytes": 11092,
+    "sha256": "79c0115c669faad2f0bdb2dda1a6eeacd0e86d3d8a1c83be1f8a4a736b28922c"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/FontRasterization.java",
+    "bytes": 15437,
+    "sha256": "ce2c1453bea8afbadd759180b1e1aa75ffb3386d4db221c24442442ee2e4bdaa"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/FontServices.java",
+    "bytes": 20989,
+    "sha256": "a3f45be919cae4f5b7b4e57210f3eadc1aaec4ff374167d88bae4447296e8e92"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/FontTables.java",
+    "bytes": 19293,
+    "sha256": "5dab4894bd75e29b74486004be33c87b9982c6555ae5b6d7302577f1a3257453"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/GameFontProvider.java",
+    "bytes": 6316,
+    "sha256": "519dd4ade408d28b49407b6e5d0eb75d5fde4ae768a6092b036997b1f5683009"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/GlCanvasBackend.java",
+    "bytes": 8545,
+    "sha256": "df8920b37538d0ce2159eb25a3f7923124873a90ec8300cb65028c53c2615d0e"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/GuiAppearance.java",
+    "bytes": 2510,
+    "sha256": "974afec1d619699263b2ce487677ef2fddbf7df865219ec1f548ebbb2aa95655"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/GuiCanvasState.java",
+    "bytes": 11197,
+    "sha256": "58137dfda664f3025e5e0dd7deb5608474fb4aeacb049180265c78a6f1b31a1d"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/GuiPresentation.java",
+    "bytes": 11075,
+    "sha256": "d6f46d781e256ec81dba241804d7182992f8b17b497ce637cdfe2efc1791b75a"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/GuiWidgets.java",
+    "bytes": 20072,
+    "sha256": "b01a67a41b9b335316cc40b7cb5d9f3991c0b0eabd23297a2ec61f9eb08f26a5"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/HoldActivation.java",
+    "bytes": 1647,
+    "sha256": "d981cdf1f816ea6f95008c466eedfab04d65723a617f2824b12af9933ec88804"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/InlineModuleSettings.java",
+    "bytes": 19649,
+    "sha256": "7d1083b199b454a67711d8d081e036ce45154348b75b2bd6ffd971a7cfa651e4"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/LoadedChunkAccess.java",
+    "bytes": 1178,
+    "sha256": "868d7521257732b1653809cd61be927f99c4bd88c8dfc2929e94a3394245db12"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/NotificationQueue.java",
+    "bytes": 4168,
+    "sha256": "5d8887005279396f7f0689312cf3a7f066f6efb9f07801e243e922573a6b2fb5"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/ProfileIcons.java",
+    "bytes": 2049,
+    "sha256": "560df394b9154ada4f44e5a49e631318c69dd833c6f145dd93b9af3532376879"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/ProfileMath.java",
+    "bytes": 4276,
+    "sha256": "5d3c435facd988b943e8fda41471956f09c8280a5ba96b9dab54775df680e9e0"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/ProfileServices.java",
+    "bytes": 12096,
+    "sha256": "2f9147c25aa535b5bb4b089fb6de6e94e2f29148f4cfd672b903137a2b569e53"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/RecoveredGui.java",
+    "bytes": 29922,
+    "sha256": "1190e869a39e62a6f677f9f9488dde2e729833116a77d7cc3408ce7f0fd11b98"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/RecoveredGuiScreen.java",
+    "bytes": 32804,
+    "sha256": "af3f8bea79d5511c9c9c07e18cacf9cc11e02cc28586d4e0c59acd60b5322f26"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/RecoveredText.java",
+    "bytes": 1625,
+    "sha256": "3962d7e9ac8e5c3101e9b2e42525b5e0d161e56c8cb11f3d6f6826f00434738a"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/RenderAccess.java",
+    "bytes": 17770,
+    "sha256": "21ef8ec62c291c885883dc756a8ed6aa590ebc3d2c7c29739dd884023fb7b6c1"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/RenderConstants.java",
+    "bytes": 3651,
+    "sha256": "9c3246b938499da99f1e6becc07a72e5eda8b21327aa81d98546692554b8a06d"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/RenderEventPayload.java",
+    "bytes": 1052,
+    "sha256": "059d2200112e80c64324533a92cfff3c218b84cb8e3005fdb2cbb1aa8aa4ea5c"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/RenderMath.java",
+    "bytes": 4857,
+    "sha256": "1ad5e5720153375dda6a5235f84b67349e5fe67c30387542e4f00e84cc073f50"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/RenderModuleAccess.java",
+    "bytes": 1229,
+    "sha256": "cfea65ffb5933c21e2a6e37adacf13dba098e64e2159bbf96defb449d4ed209b"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/render/TrajectoryPrediction.java",
+    "bytes": 6767,
+    "sha256": "8419a7e3b35b640e15f1ce5932c1f43cfff7215f79a9c4a8b0c8b554548cf1bd"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/rotation/AimNoise.java",
+    "bytes": 3699,
+    "sha256": "7c0d3e02a2acb58a3618d49fa7900ced6541e90c80599ead59f27bd8eca790e6"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/rotation/RecoveredRandom.java",
+    "bytes": 5763,
+    "sha256": "cc242df7c797b0e2a656274f0785f85bd09011cce657419c19181a0f79c808a8"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/rotation/RotationMath.java",
+    "bytes": 4074,
+    "sha256": "d1621bc21d22229e28a28adab79de94a8991d6a8a96d7ee207b10a7225749044"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/rotation/RotationService.java",
+    "bytes": 14232,
+    "sha256": "291319140b68f068746927c36a20c29f3cabea3f99563b348a982ce7cf0b5a4c"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/SemanticEvent.java",
+    "bytes": 1195,
+    "sha256": "11eca91113297767ccee915248f8b55b4d30429d6bc1260463ce4f4584d4a354"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/SlinkyCommand.java",
+    "bytes": 7304,
+    "sha256": "3ebbfeefd55f41b0a71162035025ea45d98a629afb329440e91908fa39e2affe"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/client/StatusText.java",
+    "bytes": 2855,
+    "sha256": "3c51d8d22caa407099178587ee8caaff7b748b10e21f87ef1e1e7f3514fe50a7"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/config/ConfigStore.java",
+    "bytes": 8135,
+    "sha256": "f359b8268875144d709a334503dd9f73f71054d9da9e8a53ce3a745ca1e26d67"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/config/ConfigurationFiles.java",
+    "bytes": 12323,
+    "sha256": "ba3f828023fa27669576659e98d67c51c717a26cbad8a43e0a0a644652a7a1ac"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/config/ConfigurationJson.java",
+    "bytes": 6129,
+    "sha256": "6183651b60fbf40c6b180a9c119b89304d06f0c8c402b0f716d87392e53eed80"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/config/ConfigurationSession.java",
+    "bytes": 471,
+    "sha256": "0fa9525b427f8c7f1bd4c1e3edc1b3f8ff676e9f093fb0da4975c4271595d7a1"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/config/InitialSettings.java",
+    "bytes": 2082,
+    "sha256": "caca7514cca6c74db6fee13e5c43623026b5a632ed8d6a20a45ae547df0819aa"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/config/RecoveredConfiguration.java",
+    "bytes": 6127,
+    "sha256": "3d971830517448cabec44f72c6cef68b080734588d633df3bde4d6887291bf03"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/config/RecoveredJsonJvmServices.java",
+    "bytes": 6385,
+    "sha256": "15339b3e40bde18e6c92c21caa545b8b53072277dd60963f9b7b9aa218d07be7"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/config/RecoveredJsonParser.java",
+    "bytes": 18849,
+    "sha256": "e3e6aaf4641d0a314fa9ec1294513bfe55ec6a29f01c08701a5d6b877d8d5f6d"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/config/RecoveredJsonRuntime.java",
+    "bytes": 31961,
+    "sha256": "6e178bb412b0a0b192ba53fa26c1b8056bc592ed263d2d09ff8466e50c69e0fc"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/config/SettingCodec.java",
+    "bytes": 5351,
+    "sha256": "cbead1156f83c4e476666dfa11b0bc0681ada0612eb36b6db59d11897c2a62e8"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/inject/Bootstrap.java",
+    "bytes": 4253,
+    "sha256": "33bc0b5fa8b67945035bd39ce4fe0165e921391b11c56b7e5ded379553589caf"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/inject/Mappings.java",
+    "bytes": 8668,
+    "sha256": "7c11875f5e884b8bac74a39cc79cdc03627c2730b4c8d49dc911b3877e0c288d"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/inject/NativeBridge.java",
+    "bytes": 282,
+    "sha256": "e5234543a888cbafd580d14ef205fe53cd08c6a8bd5b8c1b39ab77fb9b5106e6"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/inject/Platform.java",
+    "bytes": 5027,
+    "sha256": "923d377553c7827439c1b0d84c66b3ed414cffce636fe7e33c37016b9a90ad93"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/inject/Reflect.java",
+    "bytes": 1242,
+    "sha256": "9d5992ab3ac87b6df90a990088ce5cbe030f86f0d730baf8e61fdd629cb7cca1"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/inject/ReflectionHelper.java",
+    "bytes": 2576,
+    "sha256": "c8391e8bc70c5b1eee705ab7cc31a498ed3efa309458f1c63328aeac9e7efaab"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/inject/ReloadState.java",
+    "bytes": 840,
+    "sha256": "bfe097d92b36dd02eb38781a89eb211ab272e293637b50984994ad3ba948216c"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/inject/transform/SlinkyPatches.java",
+    "bytes": 29960,
+    "sha256": "351d5ee88381bd20bf54d550510acdd6bd6901a9eb50d44eb9521598a62d7a5a"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/inject/transform/TransformerEngine.java",
+    "bytes": 4490,
+    "sha256": "49e47d5043643e034a5be1e90ab91420ebe98c5567e91c77e28d882022616848"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/CoreModules.java",
+    "bytes": 7730,
+    "sha256": "374b286ecc45ba862f4eb98d5a09721b6d848aa1f0d5ebf87ed2dd171c845e3c"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/EvidenceCatalog.java",
+    "bytes": 6827,
+    "sha256": "3ea4f2bb171ca200b0f4f834df1df5d660b28e2438a5fec143cda790723cdd5e"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/EvidenceModule.java",
+    "bytes": 1555,
+    "sha256": "89176a2934f253f4c8a77e5806cd16b3041cef5967d90913f93859f163e30cf7"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/AimAssistModule.java",
+    "bytes": 20944,
+    "sha256": "7e6d4674757b8e639964c4918b886375d0654978662c16e7652ee5393aa13c70"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/AntiBotModule.java",
+    "bytes": 4837,
+    "sha256": "6a8b702ce9e609831c239631b9e90825d308eba32803127d5926810c6566dea7"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/AntiDebuffModule.java",
+    "bytes": 1090,
+    "sha256": "19001948591c8105f4995c6d763d038e53ab784b599886984a24342e4c8b6468"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/AutoBlockModule.java",
+    "bytes": 9301,
+    "sha256": "55afb301d88c6ba311da7ed7ee69a8b3c1e1e7bfb7e7503c7fba1d69c17fb8f9"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/AutoClickerModule.java",
+    "bytes": 15627,
+    "sha256": "aee1202a4c8eb51b555e3b50b25b3ba67a95fa6bfcd28f09e6cbcf3b694c10c3"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/AutoPotModule.java",
+    "bytes": 5909,
+    "sha256": "375af0a0f72a6981879326a91665d04d1cb96f65a96447fc86cfd61c35eccd54"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/AutoRodModule.java",
+    "bytes": 12983,
+    "sha256": "92dfc0e032e6321f48ba0cb2d8abbe6815ebc697ae9fa57aed511950e1b422fb"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/AutoSoupModule.java",
+    "bytes": 8941,
+    "sha256": "24b15a5269f408e578eaf61379b8179667dbd139c978598119e2361e39b9eb44"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/AutoToolModule.java",
+    "bytes": 8335,
+    "sha256": "f783c8c25ccc0994d8fe8c9fadc674a27241d847aaa3cc7ea292e8c40602a658"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/AutoWeaponModule.java",
+    "bytes": 2876,
+    "sha256": "eb32a111eca58c4b2ce04afcdd18bd07db1d8c128c2883d04c8020d752011f3d"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/BacktrackModule.java",
+    "bytes": 10503,
+    "sha256": "26857ff3ee854d2486c254dd49815d4469588d81d83be36a6a3fcac133346a0b"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/BlinkModule.java",
+    "bytes": 2610,
+    "sha256": "8bee7cfdac224bbb0d9df7e8d4d10955c7c7638b618815b3e181f2b7785a1dd0"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/BlockEspModule.java",
+    "bytes": 8452,
+    "sha256": "e3bacc0875edb98e308149caba19758282c3a101798e1afbc741f861b26cb880"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/BlockInModule.java",
+    "bytes": 12517,
+    "sha256": "b0a19c648fbc4ccf2c8e23beb1225b76692894d7f99cabc10183afa757dc6281"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/BridgeAssistModule.java",
+    "bytes": 14686,
+    "sha256": "c72e6648e4de9a1f7ea719133e6d713d288acd158c5242af28bf74dd61afeffc"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/ChamsModule.java",
+    "bytes": 1892,
+    "sha256": "7b83cc276729748248a90d8a695ad1eb7d4e6ba10dffcc5c411522f570292f1e"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/ChestEspModule.java",
+    "bytes": 3390,
+    "sha256": "f1612272147f346f4984600b4140a6e5af3874592071bc13eb4bb9e05f5547b1"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/ChestStealerModule.java",
+    "bytes": 1956,
+    "sha256": "18c53817d0ef6d31d9fcdda3383b2a9cf20300a7c75da8963f8cfa5c43c42ef0"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/ClutchModule.java",
+    "bytes": 22649,
+    "sha256": "cb47f703e50c068ab3482295de70de6532aec78ae22de484c4626420e053de87"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/CriticalsModule.java",
+    "bytes": 6031,
+    "sha256": "ad863867d3b082e7b0a2adacab645dd3986b0415d0d7752469c96f27eb1cf6bd"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/DebugModule.java",
+    "bytes": 3588,
+    "sha256": "429dcd973630d42393835fbcb70839e80141c08fa11a39af92f7c7cab3714a96"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/FakeLagModule.java",
+    "bytes": 4728,
+    "sha256": "61ae0f533cf209b80601d2ee749390c27f4c8e27f1ba8404afb3e4c4162b186c"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/FastAccelModule.java",
+    "bytes": 2386,
+    "sha256": "c02339f11fd838f8ed22e400151b4ccb927e855e923e65fb3c9f9e42432e28b3"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/FastMineModule.java",
+    "bytes": 3343,
+    "sha256": "d6a508ee34552aa72934de5d4b664505ab92c2384bf0a0d7edff16ca86e7c973"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/FastPlaceModule.java",
+    "bytes": 5928,
+    "sha256": "8597147b450d08ead84103effcf851632c4e58a6f5a205ebe6ab1fa8931e3b00"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/FreeLookModule.java",
+    "bytes": 1964,
+    "sha256": "6132cb5b296a261378adfb53c2be6bb5e175e1c3ef64dedc4f38f9d402aa4af3"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/FriendsModule.java",
+    "bytes": 8938,
+    "sha256": "c743fdc49a35929d3c11ae0a2658d769ba3b6d35edcb9506b1a0a064dff8eb29"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/GhostHandModule.java",
+    "bytes": 3219,
+    "sha256": "3fe64224b0bd894e5daf03ac010a4453ec9a2bb7d514faa944aa8416f9d63f3a"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/GuiModule.java",
+    "bytes": 5382,
+    "sha256": "d4c280b34f8ec103e21f5323f3b3e693fdbb028a89e21d8bfa5b7091908a4d1a"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/HitboxesModule.java",
+    "bytes": 819,
+    "sha256": "40454890a2fb9697d511aa64c6c898a8956f45687ce3c071903b56c01ed86658"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/HitSelectModule.java",
+    "bytes": 10675,
+    "sha256": "3cfdf8ee56472ba054b1e50d9fd356c31039cd837fc455d63e969bfcf7ff28e5"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/IndicatorsModule.java",
+    "bytes": 6184,
+    "sha256": "320b5eafe0df49e372c647eba52893640aaafb91aee726970dde25392ff69678"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/InstantStopModule.java",
+    "bytes": 3386,
+    "sha256": "bcda5cd197cd35db9a67e28a23c2e81faff26256fec3d9b83f9acbea018a8656"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/InvManagerModule.java",
+    "bytes": 6582,
+    "sha256": "b9354b05d39e72324c4c9455e58aa1506b21b2e230ed4f2fa210a4ba6c97f090"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/InvWalkModule.java",
+    "bytes": 12373,
+    "sha256": "c3009e64003c63508abcee7f677ccda747aaf23de41ea316a88f969037df545e"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/ItemEspModule.java",
+    "bytes": 7442,
+    "sha256": "82af8e92608ba34d7b3d452a0e9e2cb4f92ef2d6bab82206f2d9e2c965491256"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/ItemUseFixModule.java",
+    "bytes": 1608,
+    "sha256": "4d13da7ca077720f7f8d765c9b01fdfdb95892dfbee056b370b40da5073c5a33"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/KeepSprintModule.java",
+    "bytes": 3809,
+    "sha256": "54d0793e2123edc5450a7246be2688e020f41e6f57397219a4e8eb0261d45469"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/KnockbackDelayModule.java",
+    "bytes": 4204,
+    "sha256": "bfd3f09d5153cbe6dee840665c7a0c32c4e761c373032d39d4623a8d7fbed1d9"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/KnockbackDisplaceModule.java",
+    "bytes": 7255,
+    "sha256": "bd6cb8749a0b9f6c9a8bfc7cc268dbf34064fd1819f98e9c7aa9efbd8a33a794"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/LagRangeModule.java",
+    "bytes": 6700,
+    "sha256": "ab2432a5d40ae80a20fbde466b5a4408794216b4ef794b1e4e976a8189e9a440"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/ModOverlayModule.java",
+    "bytes": 10923,
+    "sha256": "7f90c07e36865db8ecafbc669a1bc387a0eff274f6c0a7a247490aee88f3fd5d"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/NameTagsModule.java",
+    "bytes": 13491,
+    "sha256": "69b18e0064171f4973464540c69c8d8baf18680dbcfded66d8f7affbfd5f6e80"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/NoHitDelayModule.java",
+    "bytes": 1869,
+    "sha256": "8a6d899edb82e3304e75a5cd265cd8bff6438c102e38c2dd85ec098efa052cf7"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/NoHurtCamModule.java",
+    "bytes": 1719,
+    "sha256": "cd56a19acd93afe40a3a4b17fd76b27ebe7799a5b017a63ab820ee377b9fa853"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/NoItemReleaseModule.java",
+    "bytes": 2808,
+    "sha256": "0991c8fd70b635f579308288521dded00ade6422f09269b18150ee90018b0d89"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/NoJumpDelayModule.java",
+    "bytes": 681,
+    "sha256": "ab79353fe50c963725040968c71447a0655e2057f5b6cb5b12249d1aa59a4c55"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/NoSlowModule.java",
+    "bytes": 1319,
+    "sha256": "483dfd5ac2f2c8df89b704f024e7828b70f11825e1271d5e49497adef0a6c576"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/NotificationsModule.java",
+    "bytes": 7047,
+    "sha256": "d9513438181e298bc4319d98e88ba4b36424daa0c85acfe44de04b8bf19dede0"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/NoUseDelayModule.java",
+    "bytes": 2563,
+    "sha256": "3c4013b238424868a8cea30c5039af26e17bfd2ab776ea0b9fb049606ecc1bf2"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/NullMoveModule.java",
+    "bytes": 3176,
+    "sha256": "dc0c327b7aefe646791f011b7b7a2213b007a32df2753e7765375bba30d84773"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/PiercingModule.java",
+    "bytes": 3428,
+    "sha256": "ea9cecf130e0a077b6e86da51e2dbd3912eb46d308bc2b09d5f3c2213863ad6b"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/PingFixModule.java",
+    "bytes": 964,
+    "sha256": "42a2efdcb85fd907ff79e947f95cd9750026a7fd17a2931f907d1f2992754c8f"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/PlayerEspModule.java",
+    "bytes": 9493,
+    "sha256": "4bee3bfd8fb7f9d5ce15f79a8acb1c5e0ee4b6f14328a4cc89ff557afa2cb8e4"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/PointersModule.java",
+    "bytes": 6728,
+    "sha256": "287a34b3e8e421831c3a6ee7ae245cc187492395ff12ed6b70c6c877ce44f655"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/ReachModule.java",
+    "bytes": 2220,
+    "sha256": "a20d49a5569617449e1e74528241d62a727852cbe5ff9656bc8780a307cd3c28"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/RefillModule.java",
+    "bytes": 11855,
+    "sha256": "ac2a88b8c7955d45432710b29e00416eb20e46caae8b9a2168bd368c999abf7e"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/SafeWalkModule.java",
+    "bytes": 1665,
+    "sha256": "426bb8dcf9b6986c64abefb877bc2e4079f80a50b1a17ab3eaf9a212f7adf51e"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/SpeedModule.java",
+    "bytes": 330,
+    "sha256": "0a6c52786cf87c10ad3a63c06d855e1360ae18c6702062313ab0e8c90cdf05d0"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/SprintModule.java",
+    "bytes": 2283,
+    "sha256": "78e175442d698f08cb87eba47e60b6a884944b6dc84d1c194b3a6968f48be178"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/SprintResetModule.java",
+    "bytes": 6469,
+    "sha256": "f7edea79cda54f545ad858a6034ab0ca766688162cb19dd7562b1b29a6baa609"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/StrafeModule.java",
+    "bytes": 2985,
+    "sha256": "d153a430b6ef47dac85080bbdc309278f14f4b84295432d9447af4215e2a020f"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/TeamsModule.java",
+    "bytes": 4261,
+    "sha256": "59d160d783e449280df6ffeccaff3e345fc8bb376018771e82b36296e14e37e9"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/TimerModule.java",
+    "bytes": 2335,
+    "sha256": "c875d73cf64baecbed9d0055a6def24bbd99863b4ceacddec2a874e9d764ab5d"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/TimerRangeModule.java",
+    "bytes": 10652,
+    "sha256": "d5067765d11b2f0d7089c57f7224932f479854db0efc81a768140a6cf14687a8"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/TrajectoriesModule.java",
+    "bytes": 7594,
+    "sha256": "afccb2c122f90ba37f55228b2d1934eb8b9a1353f59a2da4c35b0986c4ccf228"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/VelocityModule.java",
+    "bytes": 9048,
+    "sha256": "739b746efd1dff02b773f491a5ee27a26d38ef710295d3156d2664357e96b6b7"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/impl/WeaponsModule.java",
+    "bytes": 7177,
+    "sha256": "774a68caea3c31914adb8abab0829f13d108d7a468c38e64660ccb837b720bcf"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/Module.java",
+    "bytes": 4832,
+    "sha256": "839e01e0208fa35c0daacc00d8a7ba34e7901200647479d576ab298bb7831eeb"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/ModuleCategory.java",
+    "bytes": 413,
+    "sha256": "68880d4d085615c84bf3e15290367b038f81c53559a9e1df88e2aa15d34d0c27"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/ModuleManager.java",
+    "bytes": 10868,
+    "sha256": "1891b90f19ccb1f67b69b227646cbbeb05775f9fd3e3577ecb3f4b54e5f2b987"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/ModuleStateQueue.java",
+    "bytes": 1787,
+    "sha256": "9f9599bfee845e47ca612676a240d030d30cb77754655b38ebdeecb092d0fdb0"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/module/RecoveredUiLayout.java",
+    "bytes": 4395,
+    "sha256": "1d39b77caf19511f1b39f09c541017c7c0c0d9786a6f52e8bac5461315f13eeb"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/setting/BooleanSetting.java",
+    "bytes": 764,
+    "sha256": "f92933197d7d51864407c496ad58397fb70de06420a8601ce379fc39b9e7b67b"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/setting/ChoiceSetting.java",
+    "bytes": 1691,
+    "sha256": "91fb578e8781ad37849d712d5c7c78830cc7cbfb9f34c23945f79d6fa915400f"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/setting/ColorSetting.java",
+    "bytes": 1563,
+    "sha256": "60c9b2671df6540d2d96c129e5d56f50e7dd7f65eba38ce96acc608639325717"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/setting/NamedColorListSetting.java",
+    "bytes": 3869,
+    "sha256": "7246eab7cc8c6113017b9af8e8af1f4a5d568f38d6522f048c73d78d25f7efc4"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/setting/NumberSetting.java",
+    "bytes": 2264,
+    "sha256": "130c6366fd88ac27402e4dbd0b8fbdb23bae4a41dab5b0fba3d80fb0b269d04d"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/setting/RangeSetting.java",
+    "bytes": 1787,
+    "sha256": "de7017a0e0b67bcb33ddfea2940c62772949f879c91aa77d4fe3abba869cc22c"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/setting/Setting.java",
+    "bytes": 1863,
+    "sha256": "8353866fe9a61ae53892662ce41a9aa2b02c086d6a4156912e985e8d962f0a9d"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/setting/StringListSetting.java",
+    "bytes": 2002,
+    "sha256": "f9884c094b01340e4713369deb95ead567bfbb54b9ff5382e99ca77399ea9738"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/AnnotationVisitor.java",
+    "bytes": 1592,
+    "sha256": "fe062aa99394426db89309cea99691fe8358d0204d377c154cc36b83d4b4fda3"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/AnnotationWriter.java",
+    "bytes": 11925,
+    "sha256": "3206e0b09f7d10928b55f9e921e808fcad4932561a8316b7023e6716feb98cbd"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/Attribute.java",
+    "bytes": 6076,
+    "sha256": "be5aa9ad0811d713b6cf25e122f74d4b6750599f03ff4ff463de08445965d8bd"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/ByteVector.java",
+    "bytes": 7961,
+    "sha256": "9203e69720c9ca3643fdf4e8500470eb4be886db9f4a56fc075f92b789806db3"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/ClassReader.java",
+    "bytes": 115252,
+    "sha256": "44f4359ebe5d174ed2dc6ebafda336a2a934f4da3db4c2cafa5939c355fe6c83"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/ClassTooLargeException.java",
+    "bytes": 787,
+    "sha256": "3b11c6e47859063184a2031cb3c5e2ec1404377230f78b95c8deaa3dff02ac37"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/ClassVisitor.java",
+    "bytes": 4551,
+    "sha256": "3fdef90e06ba22b0441b0b272613dde79992667bbdaf1514e2ea4c27e5f48a9c"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/ClassWriter.java",
+    "bytes": 22668,
+    "sha256": "e7922cedf40e6029cf23c89bbc6b0488c868fa2ae073a1be13e5c1f96906ab35"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/ConstantDynamic.java",
+    "bytes": 2556,
+    "sha256": "a71376812ce8aad3bb20773621555663e119e1e47ba5ca00c68823d530790829"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/Constants.java",
+    "bytes": 6909,
+    "sha256": "a560d8889efb36b08262d5b8a5f7b24f14810c948d81d0de60394c4e4b497ddf"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/Context.java",
+    "bytes": 728,
+    "sha256": "a700003d5ada94ec023a228a1fcd327b77d9720d96c09e15ca5435ed993b64a2"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/CurrentFrame.java",
+    "bytes": 408,
+    "sha256": "4b3a95d4ed0106c02f34ed504b7398430bf92a0cb6c6e8cccb93796b0e09cfbf"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/Edge.java",
+    "bytes": 345,
+    "sha256": "db751debe72238213fd5028a8685f89c06cb16dfcf8365383e005cf909dba8a4"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/FieldVisitor.java",
+    "bytes": 1644,
+    "sha256": "5c13964fe6df36f5f351b3aff73d20fd9953c80c00aaa063f38d09e7e8ee3ed0"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/FieldWriter.java",
+    "bytes": 5044,
+    "sha256": "66c5bfd50161bb8cd5abb691484475c2c34932f2d3014fd8103b34c4d69fb1e7"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/Frame.java",
+    "bytes": 36817,
+    "sha256": "0369ae4f0b6ec19dc7a9016d65b38c9e4fe8f0fee12c19232d24d2076e9b5aff"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/Handle.java",
+    "bytes": 2011,
+    "sha256": "426a2550a3523f198c15a1b19a7ec22d985ae6620f509464d4733430a8222e99"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/Handler.java",
+    "bytes": 2608,
+    "sha256": "07acac7d528bd7fcc60711ccaa4a67683e5c0f9bb769f3f376a0d409256ad891"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/Label.java",
+    "bytes": 8857,
+    "sha256": "48423d97353de5cc40c90456ce7196a638849d342dcdca5b046c2bdbdb2c4d54"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/MethodTooLargeException.java",
+    "bytes": 1149,
+    "sha256": "f01b0ba2356a2d091c227f97f1188aebbf04ef92ed9104ad794ce494b3379f16"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/MethodVisitor.java",
+    "bytes": 8385,
+    "sha256": "3632144ea6306164fa1d9de6f502d435246d8e3d541e1f3deabe06fbb0ce1365"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/MethodWriter.java",
+    "bytes": 62611,
+    "sha256": "3f74ec63443b28bc4f1081e46cac2347f6d14b100f6f06eb284379a0872f6866"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/ModuleVisitor.java",
+    "bytes": 2038,
+    "sha256": "e2a619270f9f4eb8fd35203f577c80396655b2bb5415d9fbb6e6e62fe92e0b00"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/ModuleWriter.java",
+    "bytes": 5424,
+    "sha256": "791a07c3d51210554eb23f8317c3c9264de2d5230b71c299f3b634a958c5c20e"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/Opcodes.java",
+    "bytes": 5320,
+    "sha256": "c8558409ae12025a3277ac034d0e05c4e9dbb11ad6c894252fa9615ac1db6012"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/RecordComponentVisitor.java",
+    "bytes": 1653,
+    "sha256": "545bf967dac8ec0999c5ab31f7ba2dfc87bab8acdfbaf360296a0192051d6982"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/RecordComponentWriter.java",
+    "bytes": 4067,
+    "sha256": "bda05f71eed9a2b16cb2865f75e6b2908fdd00dda8b7817e1da9b32f6bbdc597"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/signature/SignatureReader.java",
+    "bytes": 5242,
+    "sha256": "03efd556e3a624e71a451c28277d0d0927a016a0d7f8bf36c7706550758285b4"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/signature/SignatureVisitor.java",
+    "bytes": 1719,
+    "sha256": "e835413e3f4b984304e443cbf1fe177642fd1e06309d53c6ebd8981bdaae3d34"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/signature/SignatureWriter.java",
+    "bytes": 3629,
+    "sha256": "737025a902b54c1a566e530c6d304742c8498d08838f874a553666b7a5c3b75b"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/Symbol.java",
+    "bytes": 1656,
+    "sha256": "40573c92a4df633a74e59f5ac0200b1cc2dca2984bfe37a97aabef1c0e5d6606"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/SymbolTable.java",
+    "bytes": 31209,
+    "sha256": "82fe3fbb1dca74f17e14a89ac07f9a88b620c0686cdeb3241724398fff217e3d"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/AbstractInsnNode.java",
+    "bytes": 4183,
+    "sha256": "f32cee3eea41ab9a1d1df67544bfffda0c8141c61950d2acf4532140d5bc200d"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/AnnotationNode.java",
+    "bytes": 4525,
+    "sha256": "27efb59e911e236a78451fbd3e551d2bf7687682282116ed401b6f5bfcf1aa9b"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/ClassNode.java",
+    "bytes": 11162,
+    "sha256": "ca620d68d458a44aa1ca47157a9c364e3e7db63902545b02bea09f6f03493af0"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/FieldInsnNode.java",
+    "bytes": 951,
+    "sha256": "a5b86d377e1260180c9bfd5553e32ada95edff6f4a83772ddabfaf9b56b5fa00"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/FieldNode.java",
+    "bytes": 4681,
+    "sha256": "d608d49a677dba911bf18846c537b2225dc01991ae2a6d6fb9db5abfd8426e91"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/FrameNode.java",
+    "bytes": 3262,
+    "sha256": "6cfd0f15c207cbf8dae873d275b898def5f2db447923f4cc1f40186a6644fc00"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/IincInsnNode.java",
+    "bytes": 726,
+    "sha256": "4ce65356d20c2efa4c2e83e9e60c076dbe107c20275e99a2fbc62828883af3cf"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/InnerClassNode.java",
+    "bytes": 577,
+    "sha256": "4011af6e163bf4e4212e984af567ec964e7cbdb677805e9fcc412c3cca677d88"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/InsnList.java",
+    "bytes": 12868,
+    "sha256": "e27172fe593e75b9543eb7b3302071d3d336dca1e9e5237883c4aaffa451cc13"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/InsnNode.java",
+    "bytes": 593,
+    "sha256": "61de294bdaba5d86c462b371655ee016adf4a22dd107f3a8e2cc817a2c5764f4"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/IntInsnNode.java",
+    "bytes": 773,
+    "sha256": "b34650a718058aeadff8e2e3fcc5401a43ff8fc73269eeb82e6bac9b2f828ece"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/InvokeDynamicInsnNode.java",
+    "bytes": 1069,
+    "sha256": "28f662630bc1149a40be8d5827172a1cb8d0d376386374451ce1b003c0a575b5"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/JumpInsnNode.java",
+    "bytes": 809,
+    "sha256": "7f96bbe965a5f49bdb99ace910cab63590fc693b80cf6bb3ad77fbb0ef7327e0"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/LabelNode.java",
+    "bytes": 857,
+    "sha256": "a6f410d2958539d875c8dfaa007ac3c8e836f08c2974ebb15f8bd03bfa6b3cae"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/LdcInsnNode.java",
+    "bytes": 644,
+    "sha256": "611aa2c8c37519cc002fede32edd3765277acaf4ed9eaaf2d4729e8e7d8cd493"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/LineNumberNode.java",
+    "bytes": 711,
+    "sha256": "d0f4667f588f946fd048196d2b76610503599a1e744212488b990697ca424f31"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/LocalVariableAnnotationNode.java",
+    "bytes": 1507,
+    "sha256": "6e510770cab480f718d65795ba15f0d7005b3bda4e197e98f8ab48ba75153094"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/LocalVariableNode.java",
+    "bytes": 748,
+    "sha256": "f47ca94cc118b4b9f2d725a8017ec13d4063b70c0171d64662f1957d60c4c5cf"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/LookupSwitchInsnNode.java",
+    "bytes": 1479,
+    "sha256": "427f756be1ad7048104d58c22a0c3177e8843c8fbae61e0dc4ae1297c3141993"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/MethodInsnNode.java",
+    "bytes": 1200,
+    "sha256": "25ac56cad6647b1532a9de1a77b49fae659b8ecef9bb64f94a81691e42aa18a5"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/MethodNode.java",
+    "bytes": 20766,
+    "sha256": "a3cabae7dd8bbb6e3898f84cdbb32fc178ee592386c9686d9ee9a3e0e85b3e46"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/ModuleExportNode.java",
+    "bytes": 578,
+    "sha256": "b873691263ddbd5e767220a6a0858cbc1b74b3e893f9fd363e4ffe3b6043fba3"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/ModuleNode.java",
+    "bytes": 4481,
+    "sha256": "850267cb00cd17702fcbe9f62027d282ef51749a148095b98811a1c3bf20dafb"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/ModuleOpenNode.java",
+    "bytes": 572,
+    "sha256": "c110cff3c9b5aa2f63d2cfb1571f2fc80980f91a929cbd10fba3da227a3af3ee"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/ModuleProvideNode.java",
+    "bytes": 486,
+    "sha256": "13d238f7b6677f21dfdc2ac6a891440147b8cbbda74b98bf2f816efcd5f2ff24"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/ModuleRequireNode.java",
+    "bytes": 488,
+    "sha256": "28a271773a12d67021fdcb835eb668006c54c29bb19c9fec32761939ecaa88fb"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/MultiANewArrayInsnNode.java",
+    "bytes": 798,
+    "sha256": "57b978443eb07e5ee5fa080f2cc29a906a63a2a47d02b9f7b92f58446674f4a9"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/ParameterNode.java",
+    "bytes": 386,
+    "sha256": "cde165153b4dc372122eeb943502dba6a08f32ce7cef66be52bcc146f3b400b4"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/RecordComponentNode.java",
+    "bytes": 4390,
+    "sha256": "1f358cd5d984f8ec19a663fb796666f752b914746b6460ea2ef8c28ea6de7fd9"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/TableSwitchInsnNode.java",
+    "bytes": 1261,
+    "sha256": "bc5ef9025e1a76f248db22706fb52665bf0601e4dece39d05daa0784f35f2b50"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/TryCatchBlockNode.java",
+    "bytes": 2134,
+    "sha256": "127f56ac36644b2e8e75ceedf781524d5229c0e8984132ce9bccd8ec45ed622c"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/TypeAnnotationNode.java",
+    "bytes": 625,
+    "sha256": "eaa76434fa0d8aaa4100fe2b6a8f7255c48d1a1b0f8519d14467d7227d334552"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/TypeInsnNode.java",
+    "bytes": 765,
+    "sha256": "04b05ec1ae35bb9ba146533c2ff49163aab212fd5b6cdb9890aa6845efa4d24f"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/UnsupportedClassVersionException.java",
+    "bytes": 183,
+    "sha256": "e330f77220f63de67899dc371b416835e2191cf585bc6230d3bac8cdc7edd246"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/Util.java",
+    "bytes": 3681,
+    "sha256": "5efb8d252ef3861032f3cbc37539e71b54a4495b46457fe540108a719547ea12"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/tree/VarInsnNode.java",
+    "bytes": 759,
+    "sha256": "62aa735fdb825012c9a13f7d0e6e47485b419f57556203353d9c2703d9ebc430"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/Type.java",
+    "bytes": 17520,
+    "sha256": "5c0735c2b751518fa4a0f64a75e1865e31379b6bcd17b83c966464199a1a51da"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/TypePath.java",
+    "bytes": 3390,
+    "sha256": "bd28f7aa575e96be99ccd1fa786d153161fad0d8554e1fbfad2f6c294bbd46e3"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/shaded/asm/TypeReference.java",
+    "bytes": 5229,
+    "sha256": "2410cb64fda0acdca99d99f2855eb6fc5c418fad4316bcfed386d61420cdc17e"
+  },
+  {
+    "path": "java/src/main/java/dev/slinky/SlinkyMod.java",
+    "bytes": 3247,
+    "sha256": "d589c0051a61888bd013fc869d717136621444c3e19ae8966cdcac4e9bf48dff"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/ActionConstants.json",
+    "bytes": 5835,
+    "sha256": "a4ad33f38e57c611157c42243ecbbaed22cc2a5f50a2e38b5c141c443a4e201e"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/fonts/Inter-Medium.ttf",
+    "bytes": 694512,
+    "sha256": "6df88fcb83ac96582350f801355c6eff55f15710093e9627fb431caa40521151"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/fonts/Inter-OFL.txt",
+    "bytes": 4377,
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/fonts/Inter_18pt-Regular.ttf",
+    "bytes": 341452,
+    "sha256": "b9fadaa44b71c03fa371a12b7eccbcd416886f31e197314112b8d0c75ed17bdc"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/fonts/InterSemiBold.ttf",
+    "bytes": 343828,
+    "sha256": "a8b276e25bb13dfa39cface35cc92aff9a7d5f1b96143f0df8c66351ccfed2a4"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/fonts/OpenSans-Medium.ttf",
+    "bytes": 130628,
+    "sha256": "ef1308969da24484c567ec16bfc6df011370cb01ecd1d46bb3140af07dea2786"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/fonts/OpenSans-OFL.txt",
+    "bytes": 4216,
+    "sha256": "01cd5ffb3a528c219a86e49a814c6c53bd8a69b9a3c305dd237074ba1c811af7"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/fonts/OpenSans-Regular.ttf",
+    "bytes": 147528,
+    "sha256": "c53aceea2dcf5b4098099c0c4d0a061d17e178a049317b42a422b1a9f7f8eb59"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/fonts/OpenSans-SemiBold.ttf",
+    "bytes": 150592,
+    "sha256": "4a413711684a9dd564ef0f1c10cb62b5d9f7eb6df2cff962f5341a6ecd5f64ae"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/InitialSettings.json",
+    "bytes": 106766,
+    "sha256": "1671971b5c5bbc07d9a60c01c84fdc5936c8c2b24bba12ba33fde509a7b6c402"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/ItemCatalog.json",
+    "bytes": 19212,
+    "sha256": "41a5d3060aa827045a6dc6005412da31d9c6db9ac20fe249fb6f7a67b45591cd"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/KeyNames.json",
+    "bytes": 993,
+    "sha256": "6ff4bb243aa3ca47081ebcd8184b44e41ad0f496fcbaf197b1263c540298faac"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/MetadataCatalog.json",
+    "bytes": 342919,
+    "sha256": "c23fc4aae72e26d05caaf71b4b5b6902a8e15314e92b375568153cb460c17853"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/ModuleDescriptors.json",
+    "bytes": 10131,
+    "sha256": "85017f7e895a179156b04ebfbb530ff0469e4e44e3f27a8b95a0179312fbadcb"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/ModuleUi.json",
+    "bytes": 118585,
+    "sha256": "bc883fce37f0d5ab51ec641a63feebaabe57c5618dcbe0d015234e3b9655909a"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/NumericConstants.json",
+    "bytes": 4895,
+    "sha256": "db17abaaeec9252985f287e25922a1d09002e1af012672bd160eedc1f98ef624"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/profile-icon-coverage.bin",
+    "bytes": 6400,
+    "sha256": "fb1556f05fe31d3dced3ef82e1655cb24ee6e5f81abd0a36a7ffd24a4a9c00ef"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/ProfileLabels.json",
+    "bytes": 390,
+    "sha256": "5bd1fb07b6576cedfd4be61c62b4970548a973c700fddc3bc072270cf9875ed9"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/RenderConstants.json",
+    "bytes": 27130,
+    "sha256": "4b9f955844a5ef071dd0e886ec39f37e7eee1dddf7124f1eb5194a5152adae34"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/RenderDescriptorObservations.json",
+    "bytes": 7942,
+    "sha256": "c2fbaf0d1baa1e126a1cf83ad3ecbd2f96eab8a230b6b04841dd2ea6f8fe29d3"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/StatusMetadata.json",
+    "bytes": 17923,
+    "sha256": "a03f0d5ebb983b7b71783f435b380f7bfecfb03c5ccaa20990af7e32bee315c0"
+  },
+  {
+    "path": "java/src/main/resources/assets/slinkysemantic/WidgetMetadata.json",
+    "bytes": 45297,
+    "sha256": "5678b90aefb510c61428759127611a8e0b31a33878d29ec9fc0b2a1d98a7873a"
+  },
+  {
+    "path": "mappings/named-to-official.txt",
+    "bytes": 1607323,
+    "sha256": "7097e14fed09990dc46883c5e3b0be3bcb86b81bc91577496b6da9436cf54aa2"
+  },
+  {
+    "path": "mappings/named-to-srg.txt",
+    "bytes": 1915756,
+    "sha256": "b8c37c1df39732e507a69e752a6de48a009556f64f72ecc10a6a9bfb0dddb9cd"
+  },
+  {
+    "path": "native/CMakeLists.txt",
+    "bytes": 2983,
+    "sha256": "30acb0d2a3f7857ff30ff9b2a6526b6bb93c7ae9fcd6852e09da40a0e910343c"
+  },
+  {
+    "path": "native/launcher.cpp",
+    "bytes": 19672,
+    "sha256": "a52687b36738fa21722f079794d569365cad742d33cc172b728cfe7dfd704aae"
+  },
+  {
+    "path": "native/launcher.manifest",
+    "bytes": 342,
+    "sha256": "0e3c66bd7ab43382c0a68cfff06bf0ca7397f8022e928e83b783fa2bdb2dbfe9"
+  },
+  {
+    "path": "native/payload.cpp",
+    "bytes": 55090,
+    "sha256": "8e54071d31aa39b57eef0134ca58246188f56e02e178df3ea8a5c4a7141810fc"
+  },
+  {
+    "path": "native/payloads.rc.in",
+    "bytes": 159,
+    "sha256": "6b9db880c9f6faa7e486040a4c45f128470c2a6e92e915f446666a3aaa1dbebe"
+  },
+  {
+    "path": "tools/build-linux.py",
+    "bytes": 7210,
+    "sha256": "d6b1bc31f040fb048dbfdaa926e61eef15bc138ada597e6ff73eb751c7d6cce0"
+  },
+  {
+    "path": "tools/BytecodeDump.java",
+    "bytes": 5235,
+    "sha256": "ee27d3df2e4f021dbf92a687179b35d8a30f6875c0a81bc9a71b684597b64d35"
+  },
+  {
+    "path": "tools/compare-bytecode.py",
+    "bytes": 5751,
+    "sha256": "98a39d3a2b4ffa35f2739112023c3042b83ee9006a2c898a3592a17fa856d7ec"
+  },
+  {
+    "path": "tools/download-deps.ps1",
+    "bytes": 1312,
+    "sha256": "a34e39abe9234dcba9c39981a904cf7e11e90b2c207d3cc99f6c481ed67a5080"
+  },
+  {
+    "path": "tools/pe_resources.py",
+    "bytes": 1976,
+    "sha256": "19f6ccedc1cdb5168d465930ab4223661fe9128a6e6848cc892eca91ee0e79e6"
+  },
+  {
+    "path": "tools/RemapJar.java",
+    "bytes": 10529,
+    "sha256": "764585a8135fb6ac69332471a19a7babccd0ee5d7f14e3ff85617a10552f00e8"
+  },
+  {
+    "path": "tools/static-reference-check.py",
+    "bytes": 5626,
+    "sha256": "d58832291be77c252166b83d3ef45012c74088517bbb911db02b7a285170f3a9"
+  },
+  {
+    "path": "tools/verify-build.py",
+    "bytes": 4391,
+    "sha256": "eaa33a524fd288336ea2137d91ae06473bec6f5752f6dc3a2e187b3e03a76375"
+  },
+  {
+    "path": "tools/verify-java.py",
+    "bytes": 5390,
+    "sha256": "5ba23543517b104c5fefe711d8772c048755ee0b5f9a9682c210221aa75874f0"
+  }
+]

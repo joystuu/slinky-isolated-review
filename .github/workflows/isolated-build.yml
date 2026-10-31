@@ -1,0 +1,38 @@
+name: Isolated Windows build and capability check
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: isolated-review
+  cancel-in-progress: true
+jobs:
+  build:
+    if: vars.COST_GATE == 'verified-no-charge'
+    runs-on: windows-2022
+    timeout-minutes: 20
+    steps:
+      - name: Check out this private commit without persisting credentials
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5, verified from official tag
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+      - name: Verify private repository and exact commit
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $repo = gh api "repos/$env:GITHUB_REPOSITORY" | ConvertFrom-Json
+          if ($LASTEXITCODE -or -not $repo.private -or $repo.visibility -ne 'private') { throw 'Private repository required.' }
+          if ((git rev-parse HEAD).Trim() -ne $env:GITHUB_SHA) { throw 'Commit mismatch' }
+      - name: Verify and build source inside the disposable runner
+        shell: pwsh
+        run: ./ci/Build-ReviewedSource.ps1
+      - name: Explain test boundary
+        if: always()
+        shell: pwsh
+        run: |
+          Write-Output 'This first workflow only establishes a clean build and runner capabilities.'
+          Write-Output 'It does not execute the built client or establish malware absence.'
+          Write-Output 'No Actions artifact/cache upload is configured. Results are in the job log.'

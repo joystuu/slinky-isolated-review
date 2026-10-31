@@ -1,0 +1,4 @@
+Slinky-source/build/
+Slinky-source/dist/
+Slinky-source/deps/**/*.jar
+Slinky-source/deps/*.jar

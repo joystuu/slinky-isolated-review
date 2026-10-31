@@ -1,0 +1,32 @@
+Destination authorized by user: PRIVATE repository joystuu/slinky-isolated-review.
+Do not make this repository public or add collaborators.
+
+Purpose: disposable GitHub-hosted Windows investigation without local BIOS changes
+or local client execution. Private Actions usage is not unconditionally free.
+User requires no cost; billing remains unverified.
+
+Actions must remain disabled until no-charge execution is verified. The manual
+workflow also requires repository variable COST_GATE=verified-no-charge before
+scheduling a Windows job. Do not set that variable based on assumption.
+Use windows-2022, a 20-minute timeout, no personal secrets, contents:read,
+pinned official checkout with persist-credentials:false, and no artifact/cache
+uploads. The ephemeral checkout token is explicitly supplied only to the metadata
+step, not to build helpers.
+
+Upload scope: 312 reviewed source/resource/manifest files, their hash manifest,
+and this workflow/script. No supplied EXEs/DLLs/dependency JARs, vault notes,
+host logs or personal credentials. GitHub hosts this private repository; it is
+not publicly accessible. Owner-authorized apps and collaborators may retain
+access under account permissions; this is not owner-only encryption.
+
+First run: verify source hashes, restore pinned dependencies, rebuild Java ->
+native DLL -> launcher, record hashes and inspect VM graphics. This executes
+reviewed build helpers remotely, but does not run the built client. Local checks
+are syntax/data-only and do not imply a successful build.
+
+Subsequent runtime work requires a successful remote build/capability check.
+Instrument process/file/registry/network behavior, exclude personal credentials,
+and restrict specimen networking. Test launcher, native bootstrap, then the real
+payload in compatible offline Minecraft if graphics/session support permits.
+Launcher/stub-JVM testing is not full payload/gameplay validation. Passing tests
+cannot certify 100 percent safety.
