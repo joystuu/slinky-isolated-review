@@ -1,32 +1,28 @@
-Destination authorized by user: PRIVATE repository joystuu/slinky-isolated-review.
-Do not make this repository public or add collaborators.
+﻿Current authorization (2026-10-31): the user explicitly requested a PUBLIC
+repository and isolated testing. This supersedes the earlier private-only choice.
+Repository: https://github.com/joystuu/slinky-isolated-review
 
-Purpose: disposable GitHub-hosted Windows investigation without local BIOS changes
-or local client execution. Private Actions usage is not unconditionally free.
-User requires no cost; billing remains unverified.
+Manual-only windows-2022 standard GitHub-hosted VM; public-repository guard;
+20-minute job timeout; read-only checkout token with no persisted credentials;
+no personal credentials; no Actions artifact/cache uploads. Do not run the client
+on the user's PC or move to paid runners. Source and CI logs are public.
 
-Actions must remain disabled until no-charge execution is verified. The manual
-workflow also requires repository variable COST_GATE=verified-no-charge before
-scheduling a Windows job. Do not set that variable based on assumption.
-Use windows-2022, a 20-minute timeout, no personal secrets, contents:read,
-pinned official checkout with persist-credentials:false, and no artifact/cache
-uploads. The ephemeral checkout token is explicitly supplied only to the metadata
-step, not to build helpers.
+All 312 original source inputs are SHA256-checked before build-generated files
+are created. Three ASM 9.6 dependencies already independently verified against
+upstream are stored under ci/vendor with their BSD license. Other dependencies
+download from the original pinned Mojang/Minecraft URLs and are hash-checked.
+No supplied client EXE/DLL or proprietary game JAR is published in this repo.
 
-Upload scope: 312 reviewed source/resource/manifest files, their hash manifest,
-and this workflow/script. No supplied EXEs/DLLs/dependency JARs, vault notes,
-host logs or personal credentials. GitHub hosts this private repository; it is
-not publicly accessible. Owner-authorized apps and collaborators may retain
-access under account permissions; this is not owner-only encryption.
+Tests rebuild Java payloads, native DLL and launcher in the remote VM; record
+artifact hashes; monitor the launcher without a target using signed Microsoft
+Process Monitor; then provision official Minecraft 1.8.9 for an offline startup
+and injection attempt. Minecraft graphics compatibility is determined at runtime.
+Outbound networking is blocked per launcher/JVM program. This is not a global
+network-denial guarantee. No personal login or public game server is used.
 
-First run: verify source hashes, restore pinned dependencies, rebuild Java ->
-native DLL -> launcher, record hashes and inspect VM graphics. This executes
-reviewed build helpers remotely, but does not run the built client. Local checks
-are syntax/data-only and do not imply a successful build.
-
-Subsequent runtime work requires a successful remote build/capability check.
-Instrument process/file/registry/network behavior, exclude personal credentials,
-and restrict specimen networking. Test launcher, native bootstrap, then the real
-payload in compatible offline Minecraft if graphics/session support permits.
-Launcher/stub-JVM testing is not full payload/gameplay validation. Passing tests
-cannot certify 100 percent safety.
+Filtered process-tree traces are gzip/base64 encoded into ordinary job logs to
+preserve evidence without Actions artifact storage. Raw PML/full-system trace
+exists only during the ephemeral job. Process Monitor is not comprehensive EDR;
+activity through unrelated processes, delayed behavior, and unexercised features
+may escape this bounded observation. See individual run logs for actual coverage.
+Passing tests cannot establish 100 percent safety or safe use on a personal PC.

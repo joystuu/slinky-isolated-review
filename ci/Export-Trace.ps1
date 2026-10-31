@@ -14,6 +14,11 @@ do {
     }
 } while ($added)
 $selected = @($events | Where-Object { $ids.Contains($_.PID) })
+foreach ($event in $selected) {
+    if ($event.Operation -eq 'Process Start') {
+        $event.Detail = $event.Detail -replace '(?s)Environment:.*$', 'Environment: [omitted from published trace]'
+    }
+}
 if (-not @($selected | Where-Object { $_.Operation -eq 'Process Start' }).Count) { throw 'Missing specimen Process Start: capture coverage not established.' }
 Write-Output ('TRACE_EVENT_COUNT ' + $selected.Count)
 Write-Output ('TRACE_PROCESS_IDS ' + (@($ids) -join ','))

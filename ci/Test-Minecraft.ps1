@@ -11,6 +11,23 @@ if ((Get-AuthenticodeSignature -LiteralPath $procmon).Status -ne 'Valid') { thro
 $exe = (Resolve-Path (Join-Path $PSScriptRoot '../Slinky-source/build/native/Release/Slinky.exe')).Path
 $java = Join-Path $env:JAVA_HOME_8_X64 'bin/javaw.exe'
 if (-not (Test-Path -LiteralPath $java)) { throw 'JDK 8 x64 unavailable.' }
+# Third-party Mesa Windows distribution, pinned to the publisher's release digest.
+# This changes only the disposable VM's JDK directory; no system-wide driver install.
+$mesaArchive = Join-Path $gameRoot 'mesa.7z'
+Invoke-WebRequest 'https://github.com/pal1000/mesa-dist-win/releases/download/26.2.5/mesa3d-26.2.5-release-msvc.7z' -OutFile $mesaArchive
+if ((Get-FileHash -LiteralPath $mesaArchive -Algorithm SHA256).Hash -ne '997123ef4ce8896204ab912d5b54f19372c487ff9835bcefafa2fca23b8953c2') { throw 'Mesa release hash mismatch.' }
+$mesa = Join-Path $gameRoot 'mesa'
+& 7z x $mesaArchive ('-o' + $mesa) -y | Out-Null
+if ($LASTEXITCODE) { throw 'Mesa extraction failed.' }
+foreach ($name in @('opengl32.dll','libgallium_wgl.dll','libglapi.dll')) {
+    $library = Join-Path $mesa ('x64/' + $name)
+    if (Test-Path -LiteralPath $library) {
+        Copy-Item -LiteralPath $library -Destination (Split-Path $java)
+        [PSCustomObject]@{RendererLibrary=$name;SHA256=(Get-FileHash -LiteralPath $library -Algorithm SHA256).Hash} | ConvertTo-Json -Compress
+    }
+}
+if (-not (Test-Path -LiteralPath (Join-Path (Split-Path $java) 'opengl32.dll'))) { throw 'Mesa OpenGL library missing.' }
+$env:GALLIUM_DRIVER = 'llvmpipe'
 New-NetFirewallRule -DisplayName 'Slinky test JVM outbound block' -Direction Outbound -Action Block -Program $java | Out-Null
 New-NetFirewallRule -DisplayName 'Slinky test JVM inbound block' -Direction Inbound -Action Block -Program $java | Out-Null
 $pml = Join-Path $lab 'minecraft.pml'
@@ -34,6 +51,18 @@ try {
         $finished = $injector.WaitForExit(150000)
         [PSCustomObject]@{Stage='minecraft-injection';PID=$injector.Id;ExitedWithin150Seconds=$finished;ExitCode=if($finished){$injector.ExitCode}else{$null}} | ConvertTo-Json -Compress
         Start-Sleep -Seconds 30
+        Add-Type -AssemblyName System.Windows.Forms
+        Add-Type -AssemblyName System.Drawing
+        $bounds = [Windows.Forms.Screen]::PrimaryScreen.Bounds
+        $bitmap = [Drawing.Bitmap]::new($bounds.Width,$bounds.Height)
+        $graphics = [Drawing.Graphics]::FromImage($bitmap)
+        $graphics.CopyFromScreen($bounds.Location,[Drawing.Point]::Empty,$bounds.Size)
+        $screenPath = Join-Path $gameRoot 'after-injection.jpg'
+        $bitmap.Save($screenPath,[Drawing.Imaging.ImageFormat]::Jpeg)
+        $graphics.Dispose()
+        $bitmap.Dispose()
+        $screenEncoded = [Convert]::ToBase64String([IO.File]::ReadAllBytes($screenPath))
+        for ($offset=0; $offset -lt $screenEncoded.Length; $offset+=3000) { Write-Output ('SCREEN_CHUNK ' + $screenEncoded.Substring($offset,[Math]::Min(3000,$screenEncoded.Length-$offset))) }
     } else {
         Write-Output 'MINECRAFT_NOT_READY: no live game window; no injection attempted.'
     }
